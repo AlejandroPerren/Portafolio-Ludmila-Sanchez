@@ -1,8 +1,64 @@
-export const proyectsData = [
+export const projectsData = [
     {
-        id:1,
-        image:"/",
-        title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        resume: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra. Duis a arcu convallis, gravida purus eget, mollis diam."
+      id: 1,
+      image: "/images/project1.png",
+      title: "Análisis de Ventas para Tienda Minorista",
+      objectives: "Identificar tendencias de compra y optimizar el inventario mediante análisis de datos históricos.",
+      results: "Reducción del 20% en el exceso de inventario y aumento del 15% en ventas estratégicas.",
+      duration: "3 meses",
+      dataset: "Dataset de ventas históricas, clientes y productos (CSV, SQL).",
+      conclusions: "El análisis permitió ajustar campañas de marketing y mejorar la gestión de stock.",
+      link: "https://github.com/usuario/analisis-ventas"
+    },
+    {
+      id: 2,
+      image: "/images/project2.png",
+      title: "Predicción de Abandono de Clientes (Churn Prediction)",
+      objectives: "Predecir clientes propensos a abandonar el servicio usando Machine Learning supervisado.",
+      results: "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
+      duration: "4 meses",
+      dataset: "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
+      conclusions: "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
+      link: "https://github.com/usuario/prediccion-churn"
+    },
+    {
+      id: 3,
+      image: "/images/project3.png",
+      title: "Dashboard Interactivo de Análisis Financiero",
+      objectives: "Construir dashboards dinámicos para visualizar KPIs financieros en tiempo real.",
+      results: "Implementación de reportes automatizados que redujeron el tiempo de generación manual en un 70%.",
+      duration: "2 meses",
+      dataset: "Transacciones financieras, balances y flujo de caja (Excel, SQL).",
+      conclusions: "El dashboard mejoró la toma de decisiones financieras estratégicas.",
+      link: "https://github.com/usuario/dashboard-financiero"
     }
-]
+  ];
+  
+
+  export const certificatesData = [
+    {
+      id: 1,
+      image: "/certificados/lockerstudio2024-udemy.pdf",
+      title: "Certificado en Análisis de Datos con Python",
+      duration: "5 meses",
+      technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+      summary: "Formación en limpieza, manipulación y visualización de datos utilizando herramientas de Python."
+    },
+    {
+      id: 2,
+      image: "/certificados/entrenaArgentina-aws.pdf",
+      title: "Certificado en Machine Learning Aplicado",
+      duration: "4 meses",
+      technologies: ["Scikit-learn", "Modelado predictivo", "Evaluación de modelos", "Feature Engineering"],
+      summary: "Especialización en creación y evaluación de modelos de machine learning supervisados y no supervisados."
+    },
+    {
+      id: 3,
+      image: "/certificados/powerbi-udemy.pdf",
+      title: "Certificado en Business Intelligence y Power BI",
+      duration: "3 meses",
+      technologies: ["Power BI", "DAX", "Modelado de Datos", "Dashboards Interactivos"],
+      summary: "Capacitación en desarrollo de informes interactivos y visualización de datos para toma de decisiones empresariales."
+    }
+  ];
+  
