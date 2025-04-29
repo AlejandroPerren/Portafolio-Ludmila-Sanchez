@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './Home/Hero/Hero'
 
 import ResponsiveNav from './Home/Navbar/ResponsiveNav'
+import Certifications from './Home/Certifications/Certifications'
 
 const Home = () => {
   return (
@@ -11,6 +12,8 @@ const Home = () => {
       
         <Hero/>
         </div>
+
+        <Certifications/>
     </div>
   )
 }

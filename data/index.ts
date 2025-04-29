@@ -38,24 +38,36 @@ export const projectsData = [
   export const certificatesData = [
     {
       id: 1,
-      image: "/certificados/lockerstudio2024-udemy.pdf",
+      image: "/certificados/dataAnalitycs-coderhouse.png",
       title: "Certificado en Análisis de Datos con Python",
+      company: "Coderhouse",
       duration: "5 meses",
       technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
       summary: "Formación en limpieza, manipulación y visualización de datos utilizando herramientas de Python."
     },
     {
       id: 2,
-      image: "/certificados/entrenaArgentina-aws.pdf",
+      image: "/certificados/dataAnalitycs-coderhouse.png",
       title: "Certificado en Machine Learning Aplicado",
+      company: "IBM",
       duration: "4 meses",
       technologies: ["Scikit-learn", "Modelado predictivo", "Evaluación de modelos", "Feature Engineering"],
       summary: "Especialización en creación y evaluación de modelos de machine learning supervisados y no supervisados."
     },
     {
       id: 3,
-      image: "/certificados/powerbi-udemy.pdf",
+      image: "/certificados/dataAnalitycs-coderhouse.png",
       title: "Certificado en Business Intelligence y Power BI",
+      company: "Udemy",
+      duration: "3 meses",
+      technologies: ["Power BI", "DAX", "Modelado de Datos", "Dashboards Interactivos"],
+      summary: "Capacitación en desarrollo de informes interactivos y visualización de datos para toma de decisiones empresariales."
+    },
+    {
+      id: 4,
+      image: "/certificados/dataAnalitycs-coderhouse.png",
+      title: "Certificado en Business Intelligence y Power BI",
+      company: "Udemy",
       duration: "3 meses",
       technologies: ["Power BI", "DAX", "Modelado de Datos", "Dashboards Interactivos"],
       summary: "Capacitación en desarrollo de informes interactivos y visualización de datos para toma de decisiones empresariales."
