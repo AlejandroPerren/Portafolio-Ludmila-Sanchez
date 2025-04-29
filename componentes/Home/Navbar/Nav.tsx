@@ -27,7 +27,7 @@ const Nav = ({ openNav }: NavProps) => {
     <div
       className={`${
         navBg ? "shadow-md bg-blue-950" : "fixed"
-      } transition-all duration-200 h-[12vh] z-[1000] fixed w-full`}
+      } transition-all duration-200 h-[6vh] z-[1000] fixed w-full`}
     >
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* LOOGO */}
