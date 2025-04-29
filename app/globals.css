@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+
+@font-face {
+  font-family: 'MillionDesign';
+  src: url('/fonts/MillionDesign.ttf') format('truetype');
+}
+
+
+:root {
+
+  --font-MillionDesign: 'MillionDesign', sans-serif;
+}

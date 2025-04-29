@@ -1,19 +1,21 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 const Picture = () => {
   return (
-    <div className='m-auto absolute flex justify-center bg-transparent bottom-1'>
-        <Image 
+    <div
+      className="absolute rounded-full bg-white p-[2px] 
+                 w-[55px] sm:w-[90px] md:w-[120px] lg:w-[170px] xl:w-[200px]
+                 aspect-square flex items-center justify-center shadow-md "
+    >
+      <Image
         src={"/pictures/fotoperfilredondo2-Photoroom.png"}
-        width={400}
-        height={400}
-        alt='Foto Personal'
-        className='rounded-full'
-
-        />
+        fill
+        alt="Foto Personal"
+        className="rounded-full object-cover"
+      />
     </div>
-  )
-}
+  );
+};
 
-export default Picture
+export default Picture;
