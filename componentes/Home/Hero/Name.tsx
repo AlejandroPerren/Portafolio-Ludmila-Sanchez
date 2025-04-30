@@ -10,7 +10,7 @@ const Name = () => {
           md:text-[6rem]
           lg:text-[10rem]
           2xl:text-[15rem]
-          text-fuchsia-700
+          text-violet-700
           uppercase tracking-tight
         "
         style={{ fontFamily: "var(--font-MillionDesign)" }}
