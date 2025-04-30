@@ -23,7 +23,7 @@ const MobileNav = ({ closeNav, showNav }: MobileNavProps) => {
 
       {/* NavLinks */}
       <div
-        className={`fixed left-0 top-0 h-full w-[80%] sm:w-[60%] bg-rose-900 text-white flex flex-col justify-center space-y-6 z-[1050] transition-transform duration-500 ${navOpen} overflow-hidden`}
+        className={`fixed left-0 top-0 h-full w-[80%] sm:w-[60%] bg-fuchsia-700 text-white flex flex-col justify-center space-y-6 z-[1050] transition-transform duration-500 ${navOpen} overflow-hidden`}
       >
         {navLinks.map((link) => (
           <Link href={link.url} key={link.id}>
