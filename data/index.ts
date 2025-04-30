@@ -1,7 +1,7 @@
 export const projectsData = [
     {
       id: 1,
-      image: "/images/project1.png",
+      images: ["/images/project1-1.png", "/images/project1-2.png"],
       title: "Análisis de Ventas para Tienda Minorista",
       objectives: "Identificar tendencias de compra y optimizar el inventario mediante análisis de datos históricos.",
       results: "Reducción del 20% en el exceso de inventario y aumento del 15% en ventas estratégicas.",
@@ -12,7 +12,7 @@ export const projectsData = [
     },
     {
       id: 2,
-      image: "/images/project2.png",
+      images: ["/images/project1-1.png", "/images/project1-2.png"],
       title: "Predicción de Abandono de Clientes (Churn Prediction)",
       objectives: "Predecir clientes propensos a abandonar el servicio usando Machine Learning supervisado.",
       results: "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
@@ -23,7 +23,7 @@ export const projectsData = [
     },
     {
       id: 3,
-      image: "/images/project3.png",
+      images: ["/images/project1-1.png", "/images/project1-2.png"],
       title: "Dashboard Interactivo de Análisis Financiero",
       objectives: "Construir dashboards dinámicos para visualizar KPIs financieros en tiempo real.",
       results: "Implementación de reportes automatizados que redujeron el tiempo de generación manual en un 70%.",
