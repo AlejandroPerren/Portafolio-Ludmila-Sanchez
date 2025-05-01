@@ -44,7 +44,7 @@ export const projectsData = [
     link: "https://github.com/usuario/dashboard-financiero",
   },
   {
-    id: 2,
+    id: 4,
     images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
     title: "Predicción de Abandono de Clientes (Churn Prediction)",
     objectives:
@@ -59,7 +59,67 @@ export const projectsData = [
     link: "https://github.com/usuario/prediccion-churn",
   },
   {
-    id: 2,
+    id: 5,
+    images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
+    title: "Predicción de Abandono de Clientes (Churn Prediction)",
+    objectives:
+      "Predecir clientes propensos a abandonar el servicio usando Machine Learning supervisado.",
+    results:
+      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
+    duration: "4 meses",
+    dataset:
+      "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
+    conclusions:
+      "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
+    link: "https://github.com/usuario/prediccion-churn",
+  },
+  {
+    id: 6,
+    images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
+    title: "Predicción de Abandono de Clientes (Churn Prediction)",
+    objectives:
+      "Predecir clientes propensos a abandonar el servicio usando Machine Learning supervisado.",
+    results:
+      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
+    duration: "4 meses",
+    dataset:
+      "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
+    conclusions:
+      "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
+    link: "https://github.com/usuario/prediccion-churn",
+  },
+  {
+    id: 7,
+    images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
+    title: "Predicción de Abandono de Clientes (Churn Prediction)",
+    objectives:
+      "Predecir clientes propensos a abandonar el servicio usando Machine Learning supervisado.",
+    results:
+      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
+    duration: "4 meses",
+    dataset:
+      "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
+    conclusions:
+      "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
+    link: "https://github.com/usuario/prediccion-churn",
+  },
+  {
+    id: 8,
+    images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
+    title: "Predicción de Abandono de Clientes (Churn Prediction)",
+    objectives:
+      "Predecir clientes propensos a abandonar el servicio usando Machine Learning supervisado.",
+    results:
+      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
+    duration: "4 meses",
+    dataset:
+      "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
+    conclusions:
+      "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
+    link: "https://github.com/usuario/prediccion-churn",
+  },
+  {
+    id: 9,
     images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
     title: "Predicción de Abandono de Clientes (Churn Prediction)",
     objectives:

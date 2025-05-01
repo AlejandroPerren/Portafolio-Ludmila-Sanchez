@@ -9,10 +9,10 @@ import { useRouter } from "next/navigation";
 import { FaRegEye } from "react-icons/fa";
 
 const responsive = {
-  superLargeDesktop: { breakpoint: { max: 4000, min: 1600 }, items: 3 },
-  desktop: { breakpoint: { max: 1600, min: 1024 }, items: 3 },
-  tablet: { breakpoint: { max: 1024, min: 768 }, items: 2 },
-  mobile: { breakpoint: { max: 768, min: 0 }, items: 1 },
+  superLargeDesktop: { breakpoint: { max: 4000, min: 1600 }, items: 4 },
+  desktop: { breakpoint: { max: 1600, min: 1024 }, items: 4 },
+  tablet: { breakpoint: { max: 1024, min: 768 }, items: 3 },
+  mobile: { breakpoint: { max: 768, min: 0 }, items: 2 },
 };
 
 const ProjectsSlider = () => {
@@ -21,7 +21,7 @@ const ProjectsSlider = () => {
   return (
     <Carousel
       responsive={responsive}
-      infinite
+      infinite={false}
       centerMode
       autoPlay
       autoPlaySpeed={6000}
@@ -30,11 +30,13 @@ const ProjectsSlider = () => {
       itemClass="px-4"
       removeArrowOnDeviceType={["tablet", "mobile"]}
     >
-      {projectsData.map((project) => (
+      {projectsData.map((project, index) => (
         <div
           key={project.id}
           onClick={() => router.push(`/proyecto/${project.id}`)}
-          className="cursor-pointer transform transition duration-300 hover:scale-105"
+          className={`cursor-pointer transform transition duration-300 hover:scale-105 ${
+            index % 2 === 0 ? "mt-0" : "mt-[100%]"
+          }`}
         >
           <div className="relative h-[200px] rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl border border-gray-300 bg-white">
             <Image
