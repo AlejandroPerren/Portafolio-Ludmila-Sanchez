@@ -3,7 +3,7 @@ import Hero from "./Home/Hero/Hero";
 
 import ResponsiveNav from "./Home/Navbar/ResponsiveNav";
 import Certifications from "./Home/Certifications/Certifications";
-
+import Proyects from "./Home/Proyects/Proyects";
 const Home = () => {
   return (
     <div>
@@ -17,6 +17,10 @@ const Home = () => {
 
       <div>
         <Certifications />
+      </div>
+
+      <div>
+        <Proyects/>
       </div>
     </div>
   );

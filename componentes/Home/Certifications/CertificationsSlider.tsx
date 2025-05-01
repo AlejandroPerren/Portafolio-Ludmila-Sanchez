@@ -52,7 +52,7 @@ const CertificationsSlider: React.FC = () => {
                 fill
                 className="object-contain rounded-md border shadow-sm"
               />
-            </div>
+            </div> 
             <div className="mt-1 text-center">
               <h2 className="text-sm font-semibold text-violet-800">
                 {data.title}
