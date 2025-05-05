@@ -9,6 +9,7 @@ export const projectsData = [
       "Reducción del 20% en el exceso de inventario y aumento del 15% en ventas estratégicas.",
     duration: "3 meses",
     dataset: "Dataset de ventas históricas, clientes y productos (CSV, SQL).",
+    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "El análisis permitió ajustar campañas de marketing y mejorar la gestión de stock.",
     link: "https://github.com/usuario/analisis-ventas",
@@ -24,6 +25,7 @@ export const projectsData = [
     duration: "4 meses",
     dataset:
       "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
+    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
     link: "https://github.com/usuario/prediccion-churn",
@@ -39,6 +41,7 @@ export const projectsData = [
     duration: "2 meses",
     dataset:
       "Transacciones financieras, balances y flujo de caja (Excel, SQL).",
+    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "El dashboard mejoró la toma de decisiones financieras estratégicas.",
     link: "https://github.com/usuario/dashboard-financiero",
@@ -54,6 +57,7 @@ export const projectsData = [
     duration: "4 meses",
     dataset:
       "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
+    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
     link: "https://github.com/usuario/prediccion-churn",
@@ -69,6 +73,7 @@ export const projectsData = [
     duration: "4 meses",
     dataset:
       "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
+    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
     link: "https://github.com/usuario/prediccion-churn",
@@ -84,6 +89,7 @@ export const projectsData = [
     duration: "4 meses",
     dataset:
       "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
+    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
     link: "https://github.com/usuario/prediccion-churn",
@@ -99,6 +105,7 @@ export const projectsData = [
     duration: "4 meses",
     dataset:
       "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
+    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
     link: "https://github.com/usuario/prediccion-churn",
@@ -114,6 +121,7 @@ export const projectsData = [
     duration: "4 meses",
     dataset:
       "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
+    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
     link: "https://github.com/usuario/prediccion-churn",
@@ -129,6 +137,7 @@ export const projectsData = [
     duration: "4 meses",
     dataset:
       "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
+    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
     link: "https://github.com/usuario/prediccion-churn",

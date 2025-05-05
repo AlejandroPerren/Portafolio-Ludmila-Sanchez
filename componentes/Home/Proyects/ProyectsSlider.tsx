@@ -10,9 +10,9 @@ import { FaRegEye } from "react-icons/fa";
 
 const responsive = {
   superLargeDesktop: { breakpoint: { max: 4000, min: 1600 }, items: 4 },
-  desktop: { breakpoint: { max: 1600, min: 1024 }, items: 4 },
-  tablet: { breakpoint: { max: 1024, min: 768 }, items: 3 },
-  mobile: { breakpoint: { max: 768, min: 0 }, items: 2 },
+  desktop: { breakpoint: { max: 1600, min: 1024 }, items: 3 },
+  tablet: { breakpoint: { max: 1024, min: 768 }, items: 2 },
+  mobile: { breakpoint: { max: 768, min: 0 }, items: 1 },
 };
 
 const ProjectsSlider = () => {
