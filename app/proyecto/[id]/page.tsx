@@ -9,11 +9,14 @@ import { projectsData } from "@/data";
 export default function ProjectDetailPage() {
   const params = useParams();
   const id = Number(params.id);
-
   const project = projectsData.find((p) => p.id === id);
 
   if (!project) {
-    return <div className="p-6 text-red-500">Proyecto no encontrado.</div>;
+    return (
+      <div className="p-6 text-center text-lg text-red-600">
+        Proyecto no encontrado.
+      </div>
+    );
   }
 
   const responsive = {
@@ -24,85 +27,106 @@ export default function ProjectDetailPage() {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-6 py-12">
-      <div className="text-center mb-10">
-        <h1 className="text-5xl font-extrabold text-blue-700 drop-shadow-sm">
+    <div className="max-w-6xl mx-auto px-6 py-16">
+      <header className="text-center mb-14">
+        <h1 className="text-4xl md:text-5xl font-bold text-violet-700 leading-tight">
           {project.title}
         </h1>
-        <p className="mt-4 text-lg text-gray-600">Detalle completo del proyecto</p>
+        <p className="mt-4 text-gray-600 text-lg">
+          Detalle completo del desarrollo, implementación y análisis del
+          proyecto.
+        </p>
+      </header>
+
+      <div className=" overflow-hidden  mb-14">
+        <Carousel
+          responsive={responsive}
+          arrows
+          swipeable
+          draggable
+          infinite
+          autoPlay={false}
+        >
+          {project.images.map((img, index) => (
+            <div
+              key={index}
+              className="w-full h-[800px] flex items-center justify-center"
+            >
+              <Image
+                src={img}
+                alt={`Imagen ${index + 1}`}
+                width={1200}
+                height={800}
+                className="max-h-full object-contain rounded-xl"
+              />
+            </div>
+          ))}
+        </Carousel>
       </div>
 
-      <Carousel
-        responsive={responsive}
-        arrows
-        swipeable
-        draggable
-        infinite
-        autoPlay={false}
-      >
-        {project.images.map((img, index) => (
-          <Image
-            width={800}
-            height={400}
-            key={index}
-            src={img}
-            alt={`Imagen ${index + 1}`}
-            className="rounded-2xl w-full h-[450px] object-cover shadow-lg"
-          />
-        ))}
-      </Carousel>
-
-      <div className="mt-12 space-y-6 text-gray-800 text-base leading-relaxed">
+      <section className="space-y-14 text-gray-800 text-[1.05rem] leading-relaxed">
         <div>
-          <h2 className="text-xl font-semibold text-gray-700">🎯 Objetivos</h2>
+          <h2 className="text-2xl font-semibold text-violet-800 mb-4">
+            Objetivos
+          </h2>
           <p>{project.objectives}</p>
         </div>
 
         <div>
-          <h2 className="text-xl font-semibold text-gray-700">📊 Resultados</h2>
+          <h2 className="text-2xl font-semibold text-violet-800 mb-4">
+            Resultados
+          </h2>
           <p>{project.results}</p>
         </div>
 
-        <div className="flex gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
           <div>
-            <h2 className="text-xl font-semibold text-gray-700">🕒 Duración</h2>
+            <h2 className="text-2xl font-semibold text-violet-800 mb-4">
+              Duración
+            </h2>
             <p>{project.duration}</p>
           </div>
-
           <div>
-            <h2 className="text-xl font-semibold text-gray-700">📁 Dataset</h2>
-            <p>{project.dataset}</p>
+            <h2 className="text-2xl font-semibold text-violet-800 mb-4">
+              Tecnologías utilizadas
+            </h2>
+            <div className="flex flex-wrap gap-3">
+              {project.technologies.map((tech, i) => (
+                <span
+                  key={i}
+                  className="bg-violet-100 text-violet-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
 
         <div>
-          <h2 className="text-xl font-semibold text-gray-700">🛠️ Tecnologías utilizadas</h2>
-          <div className="flex flex-wrap gap-3 mt-2">
-            {project.technologies.map((tech, i) => (
-              <span
-                key={i}
-                className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm"
-              >
-                {tech}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        <div>
-          <h2 className="text-xl font-semibold text-gray-700">📌 Conclusiones</h2>
+          <h2 className="text-2xl font-semibold text-violet-800 mb-4">
+            Conclusiones
+          </h2>
           <p>{project.conclusions}</p>
         </div>
-      </div>
+      </section>
 
-      <div className="mt-10 text-center">
+      <div className="mt-20 flex flex-col sm:flex-row justify-center items-center gap-6">
+        <a
+          href={project.dataset}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-6 py-3 bg-gray-100 text-violet-700 border border-violet-300 text-base rounded-full hover:bg-violet-50 transition shadow-sm"
+        >
+          Ver Dataset
+        </a>
         <a
           href={project.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block px-6 py-3 bg-blue-600 text-white text-lg rounded-full hover:bg-blue-700 transition shadow-md"
+          className="inline-block px-6 py-3 bg-violet-700 text-white text-base rounded-full hover:bg-violet-800 transition shadow-md"
         >
-          Ver repositorio en GitHub
+          Ver Repositorio en GitHub
         </a>
       </div>
     </div>

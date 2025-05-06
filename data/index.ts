@@ -8,7 +8,7 @@ export const projectsData = [
     results:
       "Reducción del 20% en el exceso de inventario y aumento del 15% en ventas estratégicas.",
     duration: "3 meses",
-    dataset: "Dataset de ventas históricas, clientes y productos (CSV, SQL).",
+    dataset: "https://github.com/usuario/analisis-ventas",
     technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "El análisis permitió ajustar campañas de marketing y mejorar la gestión de stock.",
@@ -24,7 +24,7 @@ export const projectsData = [
       "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
     duration: "4 meses",
     dataset:
-      "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
+      "https://github.com/usuario/analisis-ventas",
     technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
@@ -40,7 +40,7 @@ export const projectsData = [
       "Implementación de reportes automatizados que redujeron el tiempo de generación manual en un 70%.",
     duration: "2 meses",
     dataset:
-      "Transacciones financieras, balances y flujo de caja (Excel, SQL).",
+      "https://github.com/usuario/analisis-ventas",
     technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "El dashboard mejoró la toma de decisiones financieras estratégicas.",
@@ -56,7 +56,7 @@ export const projectsData = [
       "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
     duration: "4 meses",
     dataset:
-      "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
+      "https://github.com/usuario/analisis-ventas",
     technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
