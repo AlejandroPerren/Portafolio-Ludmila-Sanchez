@@ -136,7 +136,9 @@ export default function ProjectDetailPage() {
           rel="noopener noreferrer"
           className="inline-block px-6 py-3 bg-violet-700 text-white text-base rounded-full hover:bg-violet-800 transition shadow-md"
         >
-          Ver Repositorio en GitHub
+          {project.type === "dashboard"
+            ? "Ver Dashboard"
+            : "Ver Repositorio en GitHub"}
         </a>
       </div>
     </div>

@@ -1,6 +1,7 @@
 export const projectsData = [
   {
     id: 1,
+    type: "dashboard",
     images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
     title: "Análisis de Ventas para Tienda Minorista",
     objectives:
@@ -12,10 +13,11 @@ export const projectsData = [
     technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "El análisis permitió ajustar campañas de marketing y mejorar la gestión de stock.",
-    link: "https://github.com/usuario/analisis-ventas",
+    link: "https://lookerstudio.google.com/reporting/7992e600-7c7d-41b6-9e1f-07590a7d7b5d",
   },
   {
     id: 2,
+    type: "github",
     images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
     title: "Predicción de Abandono de Clientes (Churn Prediction)",
     objectives:
@@ -32,6 +34,7 @@ export const projectsData = [
   },
   {
     id: 3,
+    type: "dashboard",
     images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
     title: "Dashboard Interactivo de Análisis Financiero",
     objectives:
@@ -48,6 +51,7 @@ export const projectsData = [
   },
   {
     id: 4,
+    type: "github",
     images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
     title: "Predicción de Abandono de Clientes (Churn Prediction)",
     objectives:
@@ -64,6 +68,7 @@ export const projectsData = [
   },
   {
     id: 5,
+    type: "dashboard",
     images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
     title: "Predicción de Abandono de Clientes (Churn Prediction)",
     objectives:
@@ -80,6 +85,7 @@ export const projectsData = [
   },
   {
     id: 6,
+    type: "dashboard",
     images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
     title: "Predicción de Abandono de Clientes (Churn Prediction)",
     objectives:
@@ -96,6 +102,7 @@ export const projectsData = [
   },
   {
     id: 7,
+    type: "dashboard",
     images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
     title: "Predicción de Abandono de Clientes (Churn Prediction)",
     objectives:
@@ -112,6 +119,7 @@ export const projectsData = [
   },
   {
     id: 8,
+    type: "dashboard",
     images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
     title: "Predicción de Abandono de Clientes (Churn Prediction)",
     objectives:
@@ -128,6 +136,7 @@ export const projectsData = [
   },
   {
     id: 9,
+    type: "Github",
     images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
     title: "Predicción de Abandono de Clientes (Churn Prediction)",
     objectives:

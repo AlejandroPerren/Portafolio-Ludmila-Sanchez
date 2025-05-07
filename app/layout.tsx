@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Rubik_Mono_One } from "next/font/google";
+import Footer from "@/componentes/Footer/Footer";
 
 const rubikMono = Rubik_Mono_One({
   variable: "--font-rubik",
@@ -37,6 +38,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${rubikMono.variable} ${geistMono.variable} antialiased bg-gray-200`}
       >
         {children}
+        <Footer/>
       </body>
     </html>
   );

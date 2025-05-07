@@ -4,7 +4,9 @@ import Hero from "./Home/Hero/Hero";
 import ResponsiveNav from "./Home/Navbar/ResponsiveNav";
 import Certifications from "./Home/Certifications/Certifications";
 import Proyects from "./Home/Proyects/Proyects";
-import ContactForm from "./Contact/Contact";
+import ContactForm from "./Home/Contact/Contact";
+import AboutMe from "./Home/AboutMe/AboutMe";
+
 const Home = () => {
   return (
     <div>
@@ -15,7 +17,9 @@ const Home = () => {
       <div>
         <Hero />
       </div>
-
+    <div>
+      <AboutMe/>
+    </div>
       <div>
         <Certifications />
       </div>
