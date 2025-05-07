@@ -5,6 +5,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Image from "next/image";
 import { projectsData } from "@/data";
+import Link from "next/link";
+import { FaArrowLeft } from "react-icons/fa";
 
 export default function ProjectDetailPage() {
   const params = useParams();
@@ -28,6 +30,14 @@ export default function ProjectDetailPage() {
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-16">
+      <Link
+        href="/"
+        className="inline-flex items-center gap-2 text-violet-700 hover:text-violet-900 transition mb-6"
+      >
+        <FaArrowLeft className="text-xl" />
+        <span className="font-medium">Volver al inicio</span>
+      </Link>
+
       <header className="text-center mb-14">
         <h1 className="text-4xl md:text-5xl font-bold text-violet-700 leading-tight">
           {project.title}
