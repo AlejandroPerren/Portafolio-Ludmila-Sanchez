@@ -26,13 +26,13 @@ const Nav = ({ openNav }: NavProps) => {
   return (
     <div
       className={`${
-        navBg ? "shadow-md bg-blue-950" : "fixed"
+        navBg ? "shadow-md bg-violet-400" : "fixed"
       } transition-all duration-200 h-[10vh] z-[1000] fixed w-full`}
     >
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* LOOGO */}
         <div className="flex items-center space-x-2">
-          <div className="w-10 bg-rose-500 rounded-full flex items-center justify-center flex-col">
+          <div className="w-10 bg-violet-700 rounded-full flex items-center justify-center flex-col">
           </div>
           <h1 className="text-xl md:text-2xl text-violet-700 uppercase font-bold">
             Ludmila 

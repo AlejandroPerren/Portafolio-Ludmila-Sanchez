@@ -1,35 +1,37 @@
 import React from "react";
-import Hero from "./Home/Hero/Hero";
-
 import ResponsiveNav from "./Home/Navbar/ResponsiveNav";
+import Hero from "./Home/Hero/Hero";
+import AboutMe from "./Home/AboutMe/AboutMe";
 import Certifications from "./Home/Certifications/Certifications";
 import Proyects from "./Home/Proyects/Proyects";
 import ContactForm from "./Home/Contact/Contact";
-import AboutMe from "./Home/AboutMe/AboutMe";
 
 const Home = () => {
   return (
     <div>
-      <div>
+      <div id="navbar" >
         <ResponsiveNav />
       </div>
 
-      <div>
+      <section id="hero"  className="relative flex flex-col items-center justify-center min-h-screen px-4 text-center">
         <Hero />
-      </div>
-    <div>
-      <AboutMe/>
-    </div>
-      <div>
-        <Certifications />
-      </div>
+      </section>
 
-      <div>
-        <Proyects/>
-      </div>
-      <div>
-        <ContactForm/>
-      </div>
+      <section id="about" className="pt-64">
+        <AboutMe />
+      </section>
+
+      <section id="certifications" className="pt-64">
+        <Certifications />
+      </section>
+
+      <section id="projects" className="pt-64">
+        <Proyects />
+      </section>
+
+      <section id="contact" className="pt-64">
+        <ContactForm />
+      </section>
     </div>
   );
 };

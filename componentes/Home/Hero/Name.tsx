@@ -19,6 +19,7 @@ const Name = () => {
         <br />
         Sanchez
       </h1>
+  
     </div>
   );
 };

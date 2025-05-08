@@ -1,4 +1,3 @@
-
 import { navLinks } from "@/contants/contants";
 import Link from "next/link";
 import React from "react";
@@ -19,24 +18,42 @@ const MobileNav = ({ closeNav, showNav }: MobileNavProps) => {
         className={`fixed inset-0 transition-opacity duration-300 z-[1002] bg-black ${
           showNav ? "opacity-70" : "opacity-0 pointer-events-none"
         } w-full h-screen`}
+        onClick={closeNav}
       ></div>
 
-      {/* NavLinks */}
+      {/* Side Menu */}
       <div
-        className={`fixed left-0 top-0 h-full w-[80%] sm:w-[60%] bg-violet-700 text-white flex flex-col justify-center space-y-6 z-[1050] transition-transform duration-500 ${navOpen} overflow-hidden`}
+        className={`fixed top-0 left-0 z-[1003] w-[80%] max-w-xs h-screen bg-white transition-transform duration-300 ${navOpen} p-6 flex flex-col space-y-6 shadow-lg`}
       >
-        {navLinks.map((link) => (
-          <Link href={link.url} key={link.id}>
-            <p className="text-white w-fit text-[20px] ml-12 border-b-[1.5px] pb-1 border-white sm:text-[30px]">
-              {link.label}
-            </p>
-          </Link>
-        ))}
         {/* Close Button */}
         <CgClose
           onClick={closeNav}
-          className="absolute top-[0.7rem] right-[1.4rem] sm:w-8 sm:h-8 w-6 h-6 cursor-pointer"
+          className="absolute top-4 right-4 w-6 h-6 cursor-pointer"
         />
+
+        {/* NavLinks */}
+        {navLinks.map((link) => {
+          const linkClasses =
+            "text-violet-700 text-lg font-medium hover:text-yellow-500 transition";
+
+          return link.download ? (
+            <a
+              key={link.id}
+              href={link.url}
+              download
+              onClick={closeNav}
+              className={linkClasses}
+            >
+              {link.label}
+            </a>
+          ) : (
+            <Link key={link.id} href={link.url}>
+              <p onClick={closeNav} className={linkClasses}>
+                {link.label}
+              </p>
+            </Link>
+          );
+        })}
       </div>
     </div>
   );
