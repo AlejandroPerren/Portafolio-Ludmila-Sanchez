@@ -6,7 +6,7 @@ export default function AboutMe() {
       <section className="bg-violet-700 text-white py-16 px-8 rounded-3xl  shadow-lg max-w-6xl mx-auto my-12 flex flex-col md:flex-row md:items-center gap-12">
         <div className="hidden md:flex md:w-1/2 justify-center">
           <Image
-            src="/pictures/fotoperfilredondo2.png"
+            src="/pictures/Animation1.jpeg"
             alt="Analista de datos"
             width={400}
             height={400}
