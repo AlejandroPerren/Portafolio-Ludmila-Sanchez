@@ -40,7 +40,7 @@ const Nav = ({ openNav }: NavProps) => {
           {navLinks.map((link) => {
             const linkClasses =
               "relative text-violet-700 text-base font-medium w-fit block " +
-              "after:block after:content-[''] after:absolute after:h-[3px] after:bg-yellow-300 " +
+              "after:block after:content-[''] after:absolute after:h-[3px] after:bg-violet-300 " +
               "after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition duration-300 after:origin-right";
 
             return link.download ? (
