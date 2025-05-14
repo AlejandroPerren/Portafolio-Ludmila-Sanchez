@@ -210,3 +210,23 @@ export const certificatesData = [
       "Capacitación en desarrollo de informes interactivos y visualización de datos para toma de decisiones empresariales.",
   },
 ];
+
+export const techs = [
+  {
+    name: "Python",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+  },
+  { name: "Power BI", img: "https://img.icons8.com/color/96/power-bi.png" },
+  {
+    name: "Pandas",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
+  },
+  {
+    name: "React",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  },
+  {
+    name: "SQL",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+  },
+];
