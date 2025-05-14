@@ -36,10 +36,10 @@ const Nav = ({ openNav }: NavProps) => {
           </h1>
         </div>
         {/* NavLinks */}
-        <div className="hidden lg:flex items-center space-x-10">
+        <div className="hidden 2xl:flex items-center space-x-10 ">
           {navLinks.map((link) => {
             const linkClasses =
-              "relative text-violet-700 text-base font-medium w-fit block " +
+              "relative text-violet-700 text-base md:text-lg lg:text-2xl font-bold w-fit block " +
               "after:block after:content-[''] after:absolute after:h-[3px] after:bg-violet-300 " +
               "after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition duration-300 after:origin-right";
 
@@ -63,7 +63,7 @@ const Nav = ({ openNav }: NavProps) => {
         <div className="flex items-center space-x-4">
           <HiBars3BottomRight
             onClick={openNav}
-            className="w-8 h-8 cursor-pointer text-fuchsia-700 lg:hidden"
+            className="w-8 h-8 cursor-pointer text-violet-700 2xl:hidden"
           />
         </div>
       </div>

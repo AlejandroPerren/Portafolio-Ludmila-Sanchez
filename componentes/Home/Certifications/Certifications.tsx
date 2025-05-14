@@ -5,7 +5,7 @@ const Certifications = () => {
   return (
     <section className="pt-10 pb-16 ">
       <div className="w-full max-w-9xl mx-auto px-4 py-20 bg-white">
-        <h1 className="text-2xl font-bold text-violet-700 mb-6 text-center">
+        <h1 className="text-2xl md:text-5xl 2xl:text-8xl font-bold text-violet-700 mb-6 text-center">
           Certificados
         </h1>
         <CertificationsSlider />
