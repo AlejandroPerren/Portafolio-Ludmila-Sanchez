@@ -9,11 +9,14 @@ import ContactForm from "./Home/Contact/Contact";
 const Home = () => {
   return (
     <div>
-      <div id="navbar" >
+      <div id="navbar">
         <ResponsiveNav />
       </div>
 
-      <section id="hero"  className="relative flex flex-col items-center justify-center min-h-screen px-4 text-center">
+      <section
+        id="hero"
+        className="relative flex flex-col items-center justify-center min-h-screen px-4 text-center"
+      >
         <Hero />
       </section>
 
