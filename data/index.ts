@@ -14,6 +14,8 @@ export const projectsData = [
     conclusions:
       "El análisis permitió ajustar campañas de marketing y mejorar la gestión de stock.",
     link: "https://lookerstudio.google.com/reporting/7992e600-7c7d-41b6-9e1f-07590a7d7b5d",
+    summary:
+      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
   },
   {
     id: 2,
@@ -25,12 +27,13 @@ export const projectsData = [
     results:
       "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
     duration: "4 meses",
-    dataset:
-      "https://github.com/usuario/analisis-ventas",
+    dataset: "https://github.com/usuario/analisis-ventas",
     technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
     link: "https://github.com/usuario/prediccion-churn",
+    summary:
+      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
   },
   {
     id: 3,
@@ -42,12 +45,13 @@ export const projectsData = [
     results:
       "Implementación de reportes automatizados que redujeron el tiempo de generación manual en un 70%.",
     duration: "2 meses",
-    dataset:
-      "https://github.com/usuario/analisis-ventas",
+    dataset: "https://github.com/usuario/analisis-ventas",
     technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "El dashboard mejoró la toma de decisiones financieras estratégicas.",
     link: "https://github.com/usuario/dashboard-financiero",
+    summary:
+      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
   },
   {
     id: 4,
@@ -59,12 +63,13 @@ export const projectsData = [
     results:
       "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
     duration: "4 meses",
-    dataset:
-      "https://github.com/usuario/analisis-ventas",
+    dataset: "https://github.com/usuario/analisis-ventas",
     technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
     link: "https://github.com/usuario/prediccion-churn",
+    summary:
+      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
   },
   {
     id: 5,
@@ -82,6 +87,8 @@ export const projectsData = [
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
     link: "https://github.com/usuario/prediccion-churn",
+    summary:
+      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
   },
   {
     id: 6,
@@ -99,6 +106,8 @@ export const projectsData = [
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
     link: "https://github.com/usuario/prediccion-churn",
+    summary:
+      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
   },
   {
     id: 7,
@@ -116,6 +125,8 @@ export const projectsData = [
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
     link: "https://github.com/usuario/prediccion-churn",
+    summary:
+      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
   },
   {
     id: 8,
@@ -133,6 +144,8 @@ export const projectsData = [
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
     link: "https://github.com/usuario/prediccion-churn",
+    summary:
+      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
   },
   {
     id: 9,
@@ -150,6 +163,8 @@ export const projectsData = [
     conclusions:
       "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
     link: "https://github.com/usuario/prediccion-churn",
+    summary:
+      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
   },
 ];
 

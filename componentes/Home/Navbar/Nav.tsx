@@ -15,7 +15,7 @@ const Nav = ({ openNav }: NavProps) => {
   useEffect(() => {
     const handler = () => {
       if (window.scrollY >= 90) setNavBg(true);
-      if (window.scrollY < 90) setNavBg(false);
+      else setNavBg(false);
     };
     window.addEventListener("scroll", handler);
     return () => window.removeEventListener("scroll", handler);
@@ -23,9 +23,9 @@ const Nav = ({ openNav }: NavProps) => {
 
   return (
     <div
-      className={`${
-        navBg ? "shadow-md bg-violet-300" : "fixed"
-      } transition-all duration-200 h-[10vh] z-[1000] fixed w-full`}
+      className={`fixed w-full z-[1000] transition-all duration-300 ${
+        navBg ? "bg-gray-200/90 backdrop-blur-sm border-b-2 border- border-gray-500 shadow-sm" : "bg-gray-200 "
+      } h-[8vh]`}
     >
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* LOGO */}
@@ -35,8 +35,9 @@ const Nav = ({ openNav }: NavProps) => {
             Ludmila
           </h1>
         </div>
+
         {/* NavLinks */}
-        <div className="hidden 2xl:flex items-center space-x-10 ">
+        <div className="hidden 2xl:flex items-center space-x-10">
           {navLinks.map((link) => {
             const linkClasses =
               "relative text-violet-700 text-base md:text-lg lg:text-2xl font-bold w-fit block " +
@@ -59,6 +60,7 @@ const Nav = ({ openNav }: NavProps) => {
             );
           })}
         </div>
+
         {/* buttons */}
         <div className="flex items-center space-x-4">
           <HiBars3BottomRight
