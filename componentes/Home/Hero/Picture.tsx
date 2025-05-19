@@ -10,7 +10,7 @@ const Picture = () => {
       transition={{ duration: 1 }}
       className="absolute rounded-full bg-white p-[2px] 
                  w-[55px] sm:w-[90px] md:w-[120px] lg:w-[170px] xl:w-[200px]
-                 aspect-square flex items-center justify-center shadow-md"
+                 aspect-square flex lg:items-center sm:mt-13 mt-18 justify-center shadow-md"
     >
       <Image
         src={"/pictures/fotoperfilredondo2-Photoroom.png"}

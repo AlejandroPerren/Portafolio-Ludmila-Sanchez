@@ -20,19 +20,19 @@ const Home = () => {
         <Hero />
       </section>
 
-      <section id="about" className="pt-64">
+      <section id="about" className="pt-23">
         <AboutMe />
       </section>
 
-      <section id="certifications" className="pt-64">
+      <section id="certifications" className="pt-23">
         <Certifications />
       </section>
 
-      <section id="projects" className="pt-64">
+      <section id="projects" className="pt-23">
         <Proyects />
       </section>
 
-      <section id="contact" className="pt-64">
+      <section id="contact" className="pt-23">
         <ContactForm />
       </section>
     </div>

@@ -40,9 +40,9 @@ const ProjectsSlider = () => {
             ${
               index % 2 === 0
                 ? "mt-0"
-                : "mt-[100%] md:mt-[100%] sm:mt-0"
+                : "md:mt-[100%] sm:mt-0"
             }
-            max-w-[320px] w-full  // Limita ancho para mejor control y centrado
+            max-w-[320px] w-full  
           `}
         >
           <div className="relative h-[260px] rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl border border-gray-300 bg-white">
