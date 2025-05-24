@@ -5,20 +5,6 @@
   font-family: 'MillionDesign';
   src: url('/fonts/MillionDesign.ttf') format('truetype');
 }
-@font-face {
-  font-family: 'best';
-  src: url('/fonts/Bestime.otf') format('truetype');
-}
-
-@font-face {
-  font-family: 'chewy';
-  src: url('/fonts/ChewyBubble.otf') format('truetype');
-}
-
-@font-face {
-  font-family: 'gloomie';
-  src: url('/fonts/GloomieSaturday.otf') format('truetype');
-}
 
 
 
@@ -42,9 +28,6 @@
   animation: fadeIn 0.25s ease-out forwards;
 }
 
-
-
 html {
   scroll-behavior: smooth;
 }
-

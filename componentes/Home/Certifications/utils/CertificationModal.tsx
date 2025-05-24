@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 
 interface Certification {
   id: number;
@@ -19,6 +19,16 @@ interface Props {
 }
 
 const CertificationModal: React.FC<Props> = ({ data, onClose }) => {
+  useEffect(() => {
+    if (data) {
+      document.body.style.overflow = "hidden";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [data]);
+
   if (!data) return null;
 
   return (
@@ -27,7 +37,7 @@ const CertificationModal: React.FC<Props> = ({ data, onClose }) => {
       onClick={onClose}
     >
       <div
-        className="bg-white p-6 rounded-lg max-w-lg w-[90%] relative shadow-lg"
+        className="bg-white p-6 rounded-lg max-w-4xl w-[3000px] relative shadow-lg"
         onClick={(e) => e.stopPropagation()}
       >
         <button
@@ -37,7 +47,7 @@ const CertificationModal: React.FC<Props> = ({ data, onClose }) => {
           ✕
         </button>
 
-        <div className="relative h-[200px] mb-4">
+        <div className="relative h-[450px] mb-4">
           <Image
             src={data.image}
             alt={data.title}

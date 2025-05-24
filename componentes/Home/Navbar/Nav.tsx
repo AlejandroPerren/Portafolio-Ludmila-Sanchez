@@ -31,14 +31,6 @@ const Nav = ({ openNav }: NavProps) => {
         {/* LOGO */}
         <div className="flex items-center space-x-2">
           <div className="w-10 bg-violet-700 rounded-full flex items-center justify-center flex-col"></div>
-          <h1
-  className="text-xl md:text-2xl text-violet-700 font-bold"
-  style={{ fontFamily: "'DM Sans', sans-serif" }}
->
-  Ludmila Sanchez
-</h1>
-
-
 
         </div>
 
@@ -46,7 +38,7 @@ const Nav = ({ openNav }: NavProps) => {
         <div className="hidden 2xl:flex items-center space-x-10">
           {navLinks.map((link) => {
             const linkClasses =
-              "relative text-violet-700 text-base md:text-lg lg:text-xl font-bold w-fit block " +
+              "relative text-violet-700 text-base md:text-lg lg:text-xl font-semibold w-fit block " +
               "after:block after:content-[''] after:absolute after:h-[3px] after:bg-violet-300 " +
               "after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition duration-300 after:origin-right";
 
@@ -56,6 +48,7 @@ const Nav = ({ openNav }: NavProps) => {
                 href={link.url}
                 download
                 className={linkClasses}
+                
               >
                 {link.label}
               </a>
