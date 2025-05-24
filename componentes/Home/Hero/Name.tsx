@@ -5,7 +5,7 @@ const Name = () => {
   const words = ["Ludmila", "Sanchez"];
 
   return (
-    <div className="text-center leading-[4rem] sm:leading-[5rem] md:leading-[8rem] lg:leading-[10rem] 2xl:leading-[12rem]">
+    <div className="text-center leading-[4rem] sm:leading-[5rem] md:leading-[8rem] lg:leading-[10rem] 2xl:leading-[13rem]">
       <h1
         className="
           text-[3rem]

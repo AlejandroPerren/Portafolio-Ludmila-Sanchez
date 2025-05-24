@@ -24,23 +24,29 @@ const Nav = ({ openNav }: NavProps) => {
   return (
     <div
       className={`fixed w-full z-[1000] transition-all duration-300 ${
-        navBg ? "bg-gray-200/90 backdrop-blur-sm border-b-2 border- border-gray-500 shadow-sm" : "bg-gray-200 "
+        navBg ? "bg-gray-200/90 backdrop-blur-sm  border- border-gray-500 shadow-sm" : "bg-gray-200 "
       } h-[8vh]`}
     >
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* LOGO */}
         <div className="flex items-center space-x-2">
           <div className="w-10 bg-violet-700 rounded-full flex items-center justify-center flex-col"></div>
-          <h1 className="text-xl md:text-2xl text-violet-700 uppercase font-bold">
-            Ludmila
-          </h1>
+          <h1
+  className="text-xl md:text-2xl text-violet-700 font-bold"
+  style={{ fontFamily: "'DM Sans', sans-serif" }}
+>
+  Ludmila Sanchez
+</h1>
+
+
+
         </div>
 
         {/* NavLinks */}
         <div className="hidden 2xl:flex items-center space-x-10">
           {navLinks.map((link) => {
             const linkClasses =
-              "relative text-violet-700 text-base md:text-lg lg:text-2xl font-bold w-fit block " +
+              "relative text-violet-700 text-base md:text-lg lg:text-xl font-bold w-fit block " +
               "after:block after:content-[''] after:absolute after:h-[3px] after:bg-violet-300 " +
               "after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition duration-300 after:origin-right";
 

@@ -24,15 +24,15 @@ const Home = () => {
         <AboutMe />
       </section>
 
-      <section id="certifications" className="pt-23">
+      <section id="certifications" >
         <Certifications />
       </section>
 
-      <section id="projects" className="pt-23">
+      <section id="projects">
         <Proyects />
       </section>
 
-      <section id="contact" className="pt-23">
+      <section id="contact">
         <ContactForm />
       </section>
     </div>

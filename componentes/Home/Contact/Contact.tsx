@@ -46,7 +46,8 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="max-w-xl mx-auto bg-white shadow-md p-8 rounded-xl">
+    <div className="p-23">
+   <div className="max-w-xl mx-auto bg-white shadow-md p-8 rounded-xl">
       <h2 className="text-2xl font-semibold mb-6 text-center text-gray-800">
         Contacto
       </h2>
@@ -112,6 +113,7 @@ const ContactForm = () => {
           </button>
         </form>
       )}
+    </div>
     </div>
   );
 };
