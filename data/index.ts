@@ -2,7 +2,7 @@ export const projectsData = [
   {
     id: 1,
     type: "dashboard",
-    images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
+    images: ["/proyectos/proyecto1/proyecto1.jpeg", "/proyectos/proyecto1/proyecto1.2.jpeg"],
     title: "Análisis de Ventas para Tienda Minorista",
     objectives:
       "Identificar tendencias de compra y optimizar el inventario mediante análisis de datos históricos.",
@@ -238,7 +238,7 @@ export const techs = [
   },
   {
     name: "React",
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    img: "https://www.svgrepo.com/show/354012/looker-icon.svg",
   },
   {
     name: "SQL",
