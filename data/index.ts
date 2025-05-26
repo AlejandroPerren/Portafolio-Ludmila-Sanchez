@@ -172,58 +172,262 @@ export const certificatesData = [
   {
     id: 1,
     image: "/certificados/dataAnalitycs-coderhouse.png",
-    title: "Certificado en Análisis de Datos con Python",
+    title: "Data Analytics",
     company: "Coderhouse",
-    duration: "5 meses",
-    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+    duration: "46 horas",
+    technologies: ["Power BI", "Power Query", "DAX", "MySQL", "Excel"],
     summary:
-      "Formación en limpieza, manipulación y visualización de datos utilizando herramientas de Python.",
+      "Formación en análisis y visualización de datos para tomar decisiones informadas.",
   },
   {
     id: 2,
-    image: "/certificados/dataAnalitycs-coderhouse.png",
-    title: "Certificado en Machine Learning Aplicado",
-    company: "IBM",
-    duration: "4 meses",
+    image: "/certificados/Analisis_datos_Python.jpeg",
+    title: "Análisis de datos con Python",
+    company: "Eca Capacitaciones",
+    duration: "6 horas",
     technologies: [
-      "Scikit-learn",
-      "Modelado predictivo",
-      "Evaluación de modelos",
-      "Feature Engineering",
+      "Python",
+      "Pandas",
+      "Seaborn"
     ],
     summary:
-      "Especialización en creación y evaluación de modelos de machine learning supervisados y no supervisados.",
+      "Utilización de Python para analizar, manipular y visualizar datos con Pandas y Seaborn.",
   },
   {
     id: 3,
-    image: "/certificados/dataAnalitycs-coderhouse.png",
-    title: "Certificado en Business Intelligence y Power BI",
-    company: "Udemy",
-    duration: "3 meses",
+    image: "/certificados/Big_data_Data_Analytics.jpg",
+    title: "Big Data / Data Analytics",
+    company: "Agencia de Habilidades para el Futuro",
+    duration: "198 horas",
     technologies: [
-      "Power BI",
-      "DAX",
+      "Looker Studio",
       "Modelado de Datos",
-      "Dashboards Interactivos",
+      "Google Sheets",
+      "Python",
+      "MySQL",
+      "Seaborn",
+      "Matplotlib",
+      "Pandas",
+      "NumPy"
     ],
     summary:
-      "Capacitación en desarrollo de informes interactivos y visualización de datos para toma de decisiones empresariales.",
+      "Formación en análisis, manipulación y visualización de datos para tomar decisiones informadas.",
   },
   {
     id: 4,
-    image: "/certificados/dataAnalitycs-coderhouse.png",
-    title: "Certificado en Business Intelligence y Power BI",
-    company: "Udemy",
-    duration: "3 meses",
+    image: "/certificados/DataAnalitycs-IBM.png",
+    title: "Fundamentos de Data Analytics",
+    company: "Guayerd - IBM",
+    duration: "255 horas",
     technologies: [
+      "Looker Studio",
+      "Modelado de Datos",
+      "Google Sheets",
+      "Excel",
+      "MySQL",
       "Power BI",
       "DAX",
-      "Modelado de Datos",
-      "Dashboards Interactivos",
+      "Power Query",
+      "Minería de datos",
+      "Business Intelligence"
     ],
     summary:
-      "Capacitación en desarrollo de informes interactivos y visualización de datos para toma de decisiones empresariales.",
+      "Formación en análisis, manipulación y visualización de datos para tomar decisiones informadas.",
   },
+  {
+    id: 5,
+    image: "/certificados/python_intermedio.jpeg",
+    title: "Curso de Python de básico a intermedio",
+    company: "Eca Capacitaciones",
+    duration: "6 horas",
+    technologies: [
+      "Python",
+      
+    ],
+    summary:
+      "Programación con Python.",
+  },
+  {
+    id: 6,
+    image: "/certificados/aws.jpeg",
+    title: "Fundamentos de Nube AWS",
+    company: "AWS",
+    duration: "2 horas",
+    technologies: [
+      "AWS",
+    ],
+    summary:
+      "Fundamentos de Nube AWS.",
+  },
+  {
+    id: 7,
+    image: "/certificados/sql_server.jpeg",
+    title: "SQL Server",
+    company: "Unión Informática",
+    duration: "32 horas",
+    technologies: [
+      "SQL Server",
+    ],
+    summary:
+      "Formación completa en bases de datos relacionales utilizando SQL Server.",
+  },
+  {
+    id: 8,
+    image: "/certificados/python_profesional.jpeg",
+    title: "Curso de Python Profesional",
+    company: "Código Facilito",
+    duration: "8 horas",
+    technologies: [
+      "Python",
+    ],
+    summary:
+      "Formación completa en el lenguaje de programación Python.",
+  },
+  {
+    id: 9,
+    image: "/certificados/experto_visualizacion_datos.jpeg",
+    title: "Experto en Análisis y Visualización de datos",
+    company: "Udemy",
+    duration: "30.5 horas",
+    technologies: [
+      "Excel",
+      "SQL",
+      "MySQL",
+      "Looker Studio",
+      "Power BI",
+      "R"
+    ],
+    summary:
+      "Formación integral en análisis, manipulación y visualización de datos.",
+  },
+  {
+    id: 10,
+    image: "/certificados/Google_sheets.jpg",
+    title: "Google Sheets Completo",
+    company: "Udemy",
+    duration: "7.5 horas",
+    technologies: [
+      "Google Sheets",
+    ],
+    summary:
+      "Formación completa en Google Sheets.",
+  },
+  {
+    id: 11,
+    image: "/certificados/java.jpeg",
+    title: "Introducción a Java",
+    company: "Argentina Programa",
+    duration: "3 meses",
+    technologies: [
+      "Java",
+    ],
+    summary:
+      "Curso introductorio al lenguaje de programación Java.",
+  },
+  {
+    id: 12,
+    image: "/certificados/Looker_studio.jpeg",
+    title: "Looker Studio 2024",
+    company: "Udemy",
+    duration: "12.5 horas",
+    technologies: [
+      "Looker Studio",
+    ],
+    summary:
+      "Formación completa en la herramienta Looker Studio para la creación de dashboards.",
+  },
+  {
+    id: 13,
+    image: "/certificados/metodologia_agil.jpeg",
+    title: "Gestión de Proyectos con Metodologías Ágiles y Enfoques Lean",
+    company: "Fundación Telefónica Movistar",
+    duration: "40 horas",
+    technologies: [
+      "Gestión de Proyectos con Metodologías Ágiles",
+    ],
+    summary:
+      "Formación en la gestion de proyectos con Metodologías Ágiles.",
+  },
+  {
+    id: 14,
+    image: "/certificados/mineria_datos.jpeg",
+    title: "Introducción al Business Intelligence y la Minería de Datos",
+    company: "Udemy",
+    duration: "3 horas",
+    technologies: [
+      "Business Intelligence",
+    ],
+    summary:
+      "Formación introductoria en Business Intelligence y la Minería de Datos.",
+  },
+  {
+    id: 15,
+    image: "/certificados/mysql.jpeg",
+    title: "Curso completo de Bases de Datos",
+    company: "Udemy",
+    duration: "34.5 horas",
+    technologies: [
+      "MySQL",
+    ],
+    summary:
+      "Formación completa en bases de datos relacionales utilizando MySQL.",
+  },
+  {
+    id: 16,
+    image: "/certificados/power_bi.jpeg",
+    title: "Microsoft Power BI - Curso de Power BI Desktop",
+    company: "Udemy",
+    duration: "24 horas",
+    technologies: [
+      "Power BI",
+      "Power Query",
+      "DAX"
+    ],
+    summary:
+      "Formación completa Power BI Desktop.",
+  },
+  {
+    id: 17,
+    image: "/certificados/power_query.jpeg",
+    title: "Power Query",
+    company: "Udemy",
+    duration: "3 horas",
+    technologies: [
+      "Power Query",
+    ],
+    summary:
+      "Formación completa en transformación de datos con Power Query.",
+  },
+  {
+    id: 18,
+    image: "/certificados/Excel_Power_bi.jpeg",
+    title: "Excel y Power BI - Análisis y visualización de datos",
+    company: "Udemy",
+    duration: "12.5 horas",
+    technologies: [
+      "Excel",
+      "Power BI",
+      "Power Pivot",
+      "DAX",
+      "Power Query"
+    ],
+    summary:
+      "Formación en análisis de datos con excel y Power BI.",
+  },
+  
+  {
+    id: 19,
+    image: "/certificados/Excel_completo.jpg",
+    title: "Excel completo - Desde principiante a avanzado",
+    company: "Udemy",
+    duration: "20 horas",
+    technologies: [
+      "Excel",
+    ],
+    summary:
+      "Formación en excel.",
+  },
+  
 ];
 
 export const techs = [
@@ -237,11 +441,27 @@ export const techs = [
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
   },
   {
-    name: "React",
+    name: "Looker Studio",
     img: "https://www.svgrepo.com/show/354012/looker-icon.svg",
   },
   {
-    name: "SQL",
+    name: "MySQL",
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+  },
+  {
+    name: "SQL Server",
+    img: "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg",
+  },
+  {
+    name: "Numpy",
+    img: "https://www.svgrepo.com/show/354127/numpy.svg",
+  },
+  {
+    name: "Seaborn",
+    img: "https://seaborn.pydata.org/_images/logo-mark-lightbg.svg",
+  },
+  {
+    name: "Matplotlib",
+    img: "https://icon.icepanel.io/Technology/svg/Matplotlib.svg",
   },
 ];
