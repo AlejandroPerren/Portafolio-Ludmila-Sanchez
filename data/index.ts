@@ -2,170 +2,95 @@ export const projectsData = [
   {
     id: 1,
     type: "dashboard",
-    images: ["/proyectos/proyecto1/proyecto1.jpeg", "/proyectos/proyecto1/proyecto1.2.jpeg"],
-    title: "Análisis de Ventas para Tienda Minorista",
+    images: ["/proyectos/proyecto1/proyecto1_imagen1.jpeg", "/proyectos/proyecto1/proyecto1_imagen2.jpeg", "/proyectos/proyecto1/proyecto1_imagen3.jpeg", "/proyectos/proyecto1/proyecto1_imagen4.jpeg"],
+    title: "Análisis sobre Hechos y Víctimas de Suicidio en Argentina",
     objectives:
-      "Identificar tendencias de compra y optimizar el inventario mediante análisis de datos históricos.",
+      "En el siguiente proyecto se busca identificar y comprender los factores de riesgo asociados con los suicidios en Argentina. Esto podría incluir variables como la edad, género, ubicación geográfica, métodos utilizados, entre otros. Identificar patrones en el comportamiento de personas en riesgo de suicidio puede ser crucial para implementar estrategias efectivas de prevención. Aunque cada caso es único, con el presente proyecto se desea revelar modelos y factores clave que están asociados con la incidencia de estos sucesos.",
     results:
-      "Reducción del 20% en el exceso de inventario y aumento del 15% en ventas estratégicas.",
-    duration: "3 meses",
-    dataset: "https://github.com/usuario/analisis-ventas",
-    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+    "Reporte para promover e intensificar la concientización y educación sobre la salud mental.",
+    duration: "2 meses",
+    dataset: "https://datos.gob.ar/dataset/seguridad-suicidios-sistema-alerta-temprana-estadisticas-criminales-republica-argentina",
+    technologies: ["Excel", "Power BI", "MySQL", "DAX", "Power Query"],
     conclusions:
-      "El análisis permitió ajustar campañas de marketing y mejorar la gestión de stock.",
-    link: "https://lookerstudio.google.com/reporting/7992e600-7c7d-41b6-9e1f-07590a7d7b5d",
+      "Se puede concluir que realizando un analisis sobre los datos proporcionados, la franja etaria de las victimas son personas entre 20 y 24 años de edad que cometieron mayor cantidad de suicidio, siguiendo en segundo lugar las personas entre 25 y 29 años, ademas se concluye que los hombres son mas propensos a suicidarse con un porcentaje mayor al 70%. En relacion al lugar de acontecimiento, la mayoria de las personas cometen suicidio en su domicilio particular, y por detras se encuentra la vía pública como segundo lugar mas elegido.",
+    link: "https://drive.google.com/drive/folders/1JtzObJhEdcwfQDXPEmtsABdvcKf1LZJ_?usp=sharing",
     summary:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
+      "Se expone informacón desde 2017 hasta 2022.",
   },
   {
     id: 2,
-    type: "github",
-    images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
-    title: "Predicción de Abandono de Clientes (Churn Prediction)",
+    type: "dashboard",
+    images: ["/proyectos/proyecto2/proyecto2_imagen1.jpeg", "/proyectos/proyecto2/proyecto2_imagen2.jpeg", "/proyectos/proyecto2/proyecto2_imagen3.jpeg", "/proyectos/proyecto2/proyecto2_imagen4.jpeg", "/proyectos/proyecto2/proyecto2_imagen5.jpeg", "/proyectos/proyecto2/proyecto2_imagen6.jpeg", "/proyectos/proyecto2/proyecto2_imagen7.jpeg"],
+    title: "Informe sobre ingresos y egresos de Potenciar Solidario",
     objectives:
-      "Predecir clientes propensos a abandonar el servicio usando Machine Learning supervisado.",
+      "Realizar un análisis sobre los ingresos y egresos entre los años 2019 y 2024 de la organización 'Potenciar Solidario'.",
     results:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
-    duration: "4 meses",
-    dataset: "https://github.com/usuario/analisis-ventas",
-    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+      "Ayudar a los directivos a tomar decisiones estratégicas sobre la ONG.",
+    duration: "1 mes",
+    dataset: "https://drive.google.com/drive/folders/186p9kKKgZucbJ_X0PXZucJkYNpZEPwPg?usp=sharing",
+    technologies: ["Google Sheets", "Looker Studio", "MySQL"],
     conclusions:
-      "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
-    link: "https://github.com/usuario/prediccion-churn",
+      "El presente informe presenta un  balance detallado de los ingresos y egresos de la organización entre 2019 y 2024, destacando un sólido flujo de donaciones e inversiones en varias áreas clave. Sin embargo, también revela una alta concentración de gastos en sectores como los servicios y la construcción. En términos de sostenibilidad financiera, la organización parece estar manejando bien sus recursos, con una diferencia considerable entre los ingresos y los egresos que indica un posible superávit para reinversión o crecimiento. El enfoque en áreas como tecnología y energía renovable sugiere que 'Potenciar Solidario' está invirtiendo en sectores modernos y de impacto social, lo cual es positivo para su estrategia de desarrollo a largo plazo.",
+    link: "https://lookerstudio.google.com/reporting/7992e600-7c7d-41b6-9e1f-07590a7d7b5d",
     summary:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
+      "Reporte entre los años 2019 y 2024",
   },
   {
     id: 3,
-    type: "dashboard",
-    images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
-    title: "Dashboard Interactivo de Análisis Financiero",
+    type: "github",
+    images: ["/proyectos/proyecto3/proyecto3_imagen1.jpeg", "/proyectos/proyecto3/proyecto3_imagen2.jpeg", "/proyectos/proyecto3/proyecto3_imagen3.jpeg"],
+    title: "Análisis de Construction Materials Megacorp",
     objectives:
-      "Construir dashboards dinámicos para visualizar KPIs financieros en tiempo real.",
+      "Realizar un análisis general de Construction Materials Megacorp, una empresa multinacional dedicada a la fabricación y distribución de materiales de construcción. La compañía comenzó sus operaciones en la región LATAM, que abarca Argentina y países limítrofes, en el primer cuatrimestre de 2024.",
     results:
-      "Implementación de reportes automatizados que redujeron el tiempo de generación manual en un 70%.",
+      "Como parte de este proyecto, se llevó a cabo una auditoría específica para Paraguay, motivada por un análisis previo que reveló una discrepancia significativa entre el capital invertido y la ganancia neta obtenida en el país.",
     duration: "2 meses",
-    dataset: "https://github.com/usuario/analisis-ventas",
-    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+    dataset: "https://drive.google.com/drive/folders/1ygGVyKTHd1LmCpaGSSJmwDOwHw8RZYoG",
+    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Looker Studio", "Google Sheets"],
     conclusions:
-      "El dashboard mejoró la toma de decisiones financieras estratégicas.",
-    link: "https://github.com/usuario/dashboard-financiero",
+      "Las exportaciones de productos como Brick y Steel superan ampliamente sus ventas locales, lo que indica baja demanda interna y poca rentabilidad. Plexiglass, en cambio, destaca por su alta participación tanto en exportaciones como en ventas. En general, las ventas superan a las exportaciones en la mayoría de los productos, salvo excepciones como Brick. La baja venta de ciertos productos afectó el retorno de inversión, en parte porque los distribuidores locales no operan en sectores que demanden esos materiales.",
+    link: "https://github.com/Ludmi0611/Analisis-CMM",
     summary:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
+      "Proyecto para la empresa CMM de sus operaciones recientes en Latam, primer cuatrimestre de 2024.",
   },
   {
     id: 4,
     type: "github",
-    images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
-    title: "Predicción de Abandono de Clientes (Churn Prediction)",
+    images: ["/proyectos/proyecto4/proyecto4_imagen1.png", "/proyectos/proyecto4/proyecto4_imagen2.jpeg"],
+    title: "Web Scraping de los celulares de Mercadolibre",
     objectives:
-      "Predecir clientes propensos a abandonar el servicio usando Machine Learning supervisado.",
+      "Identificar las marcas de celulares que se muestran en la primer página de busqueda en Mercadolibre.",
     results:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
-    duration: "4 meses",
+      "Se llevó a cabo la recolección de datos de la página de Mercado Libre mediante la técnica de web scraping. La información recopilada corresponde a la primera página de resultados al buscar celulares de todas las gamas.",
+    duration: "2 semanas",
     dataset: "https://github.com/usuario/analisis-ventas",
-    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+    technologies: ["Python", "BeautifulSoap", "Power BI"],
     conclusions:
-      "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
-    link: "https://github.com/usuario/prediccion-churn",
+      "El análisis de los datos revela que los celulares más costosos son ofrecidos por la marca Samsung, seguida por Motorola, según los resultados de la primera página. Cabe destacar que algunas marcas no pudieron ser identificadas y aparecen representadas como N/A.",
+    link: "https://github.com/Ludmi0611/web-scraping-mercadolibre",
     summary:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
+      "Proyecto utilizando la técnica de Web Scraping con Python.",
   },
   {
     id: 5,
-    type: "dashboard",
-    images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
-    title: "Predicción de Abandono de Clientes (Churn Prediction)",
+    type: "github",
+    images: ["/proyectos/proyecto5/proyecto5_imagen1.png", "/proyectos/proyecto5/proyecto5_imagen2.jpeg", "/proyectos/proyecto5/proyecto5_imagen3.jpeg", "/proyectos/proyecto5/proyecto5_imagen4.jpeg"],
+    title: "Análisis predictivo para Tienda Minorista",
     objectives:
-      "Predecir clientes propensos a abandonar el servicio usando Machine Learning supervisado.",
+      "El objetivo es predecir las ventas del próximo mes en una tienda minorista utilizando Maching Learning.",
     results:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
-    duration: "4 meses",
+      "El modelo predictivo permite optimizar inventario y personal, especialmente en fechas festivas. También ayuda a enfocar el marketing en los períodos de mayor venta. Se recomienda analizar desviaciones entre ventas reales y predichas, e incorporar más variables externas para mejorar la precisión del modelo.",
+    duration: "1 mes",
     dataset:
-      "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
-    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+      "https://drive.google.com/file/d/1lCpWjJXvZpuB-AxeUBwna_1WSwe5jD54/view?usp=sharing",
+    technologies: ["Python", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn"],
     conclusions:
-      "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
-    link: "https://github.com/usuario/prediccion-churn",
+      "Los gráficos muestran que el modelo de regresión lineal predice bien las ventas, con una fuerte relación entre valores reales y predichos. Aunque en algunos momentos hay diferencias, estas podrían explicarse por eventos no considerados en el modelo o variaciones naturales del negocio.",
+    link: "https://github.com/Ludmi0611/Analisis-Predictivo-Tienda-Minorista",
     summary:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
+      "Modelo predictivo para analizar las ventas del próximo mes de una Tienda Minorista.",
   },
-  {
-    id: 6,
-    type: "dashboard",
-    images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
-    title: "Predicción de Abandono de Clientes (Churn Prediction)",
-    objectives:
-      "Predecir clientes propensos a abandonar el servicio usando Machine Learning supervisado.",
-    results:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
-    duration: "4 meses",
-    dataset:
-      "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
-    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
-    conclusions:
-      "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
-    link: "https://github.com/usuario/prediccion-churn",
-    summary:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
-  },
-  {
-    id: 7,
-    type: "dashboard",
-    images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
-    title: "Predicción de Abandono de Clientes (Churn Prediction)",
-    objectives:
-      "Predecir clientes propensos a abandonar el servicio usando Machine Learning supervisado.",
-    results:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
-    duration: "4 meses",
-    dataset:
-      "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
-    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
-    conclusions:
-      "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
-    link: "https://github.com/usuario/prediccion-churn",
-    summary:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
-  },
-  {
-    id: 8,
-    type: "dashboard",
-    images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
-    title: "Predicción de Abandono de Clientes (Churn Prediction)",
-    objectives:
-      "Predecir clientes propensos a abandonar el servicio usando Machine Learning supervisado.",
-    results:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
-    duration: "4 meses",
-    dataset:
-      "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
-    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
-    conclusions:
-      "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
-    link: "https://github.com/usuario/prediccion-churn",
-    summary:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
-  },
-  {
-    id: 9,
-    type: "Github",
-    images: ["/proyectos/proyecto1.jpeg", "/proyectos/proyecto1.2.jpeg"],
-    title: "Predicción de Abandono de Clientes (Churn Prediction)",
-    objectives:
-      "Predecir clientes propensos a abandonar el servicio usando Machine Learning supervisado.",
-    results:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
-    duration: "4 meses",
-    dataset:
-      "Datos de comportamiento de clientes, transacciones y servicio al cliente.",
-    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
-    conclusions:
-      "Se lograron estrategias personalizadas de retención, disminuyendo el churn en un 10%.",
-    link: "https://github.com/usuario/prediccion-churn",
-    summary:
-      "Modelo con 85% de precisión para identificar clientes en riesgo de churn.",
-  },
+  
 ];
 
 export const certificatesData = [
@@ -242,7 +167,7 @@ export const certificatesData = [
     duration: "6 horas",
     technologies: [
       "Python",
-      
+
     ],
     summary:
       "Programación con Python.",
@@ -414,7 +339,7 @@ export const certificatesData = [
     summary:
       "Formación en análisis de datos con excel y Power BI.",
   },
-  
+
   {
     id: 19,
     image: "/certificados/Excel_completo.jpg",
@@ -427,7 +352,7 @@ export const certificatesData = [
     summary:
       "Formación en excel.",
   },
-  
+
 ];
 
 export const techs = [
