@@ -5,7 +5,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function AboutMe() {
   return (
     <section className="relative overflow-hidden py-16 px-8 text-white bg-violet-700">
-
       <div className="absolute top-[-100px] left-[-100px] w-[400px] h-[400px] bg-violet-400 rounded-full opacity-20 blur-3xl animate-pulse"></div>
       <div className="absolute bottom-[-120px] right-[-120px] w-[350px] h-[350px] bg-fuchsia-400 rounded-full opacity-20 blur-3xl animate-pulse delay-200"></div>
       <div className="absolute top-1/3 right-[-150px] w-[300px] h-[300px] bg-pink-300 rounded-full opacity-10 blur-2xl animate-pulse delay-100"></div>
@@ -28,13 +27,18 @@ export default function AboutMe() {
             Acerca de mí
           </h2>
           <p className="text-lg leading-relaxed mb-8 text-white text-center md:text-left">
-            Soy una analista de datos apasionada por descubrir patrones y tomar
-            decisiones informadas a partir de la información. Me especializo en
-            transformar datos complejos en visualizaciones claras y accionables.
-            Últimamente, he enfocado mi carrera en el uso de inteligencia
-            artificial y machine learning para potenciar soluciones innovadoras.
-            Me encanta aprender y aplicar nuevas tecnologías que impulsen la
-            toma de decisiones inteligentes.
+            Técnica Superior en Desarrollo de Software, actualmente cursando la
+            Licenciatura en Ciencia de Datos. Soy una analista de datos
+            apasionada por el análisis, la interpretación y la visualización de
+            datos, con el objetivo de generar valor a partir de la información.
+            Me especializo en transformar datos complejos en visualizaciones
+            claras y accionables. Últimamente, he enfocado mi carrera en el uso
+            de inteligencia artificial y machine learning para potenciar
+            soluciones innovadoras. Cuento con experiencia en trabajo
+            colaborativo y me destaco por ser organizada, detallista y orientada
+            a la resolución de problemas. Me adapto con facilidad a nuevos
+            entornos y tecnologías, y busco seguir desarrollándome
+            profesionalmente en el ámbito de la analítica de datos.
           </p>
 
           <div className="flex justify-center md:justify-start gap-4 mb-6">
