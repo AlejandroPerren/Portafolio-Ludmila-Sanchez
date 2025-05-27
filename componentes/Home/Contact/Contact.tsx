@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect, FormEvent } from "react";
 
 const mailURL = process.env.NEXT_PUBLIC_FORMSPREE_URL as string;
@@ -6,6 +7,7 @@ const mailURL = process.env.NEXT_PUBLIC_FORMSPREE_URL as string;
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     if (submitted || error) {
@@ -24,6 +26,7 @@ const ContactForm = () => {
     const form = e.currentTarget;
     const formData = new FormData(form);
 
+    setLoading(true);
     try {
       const response = await fetch(mailURL, {
         method: "POST",
@@ -35,36 +38,37 @@ const ContactForm = () => {
 
       if (response.ok) {
         setSubmitted(true);
-        form.reset(); 
+        form.reset();
       } else {
         setError(true);
       }
     } catch (err) {
       console.error("Error al enviar:", err);
       setError(true);
+    } finally {
+      setLoading(false);
     }
   };
 
   return (
-    <div className="p-23">
-   <div className="max-w-xl mx-auto bg-white shadow-md p-8 rounded-xl">
-      <h2 className="text-2xl font-semibold mb-6 text-center text-gray-800">
-        Contacto
-      </h2>
+    <div className="p-4 sm:p-6">
+      <div className="max-w-xl mx-auto bg-white shadow-lg p-6 sm:p-8 rounded-xl">
+        <h2 className="text-2xl font-semibold mb-6 text-center text-gray-800">
+          Contacto
+        </h2>
 
-      {submitted && (
-        <p className="text-green-600 text-center font-medium">
-          ¡Gracias por tu mensaje!
-        </p>
-      )}
+        {submitted && (
+          <p className="text-green-600 text-center font-medium mb-4">
+            ¡Gracias por tu mensaje! Te responderé pronto.
+          </p>
+        )}
 
-      {error && (
-        <p className="text-red-600 text-center font-medium">
-          Hubo un error al enviar tu mensaje.
-        </p>
-      )}
+        {error && (
+          <p className="text-red-600 text-center font-medium mb-4">
+            No se pudo enviar. Intenta nuevamente más tarde.
+          </p>
+        )}
 
-      {!submitted && !error && (
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
             <label htmlFor="name" className="block font-medium text-gray-700">
@@ -107,13 +111,17 @@ const ContactForm = () => {
 
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition"
+            disabled={loading}
+            className={`w-full py-2 rounded-md text-white transition ${
+              loading
+                ? "bg-gray-400 cursor-not-allowed"
+                : "bg-blue-600 hover:bg-blue-700"
+            }`}
           >
-            Enviar Mensaje
+            {loading ? "Enviando..." : "Enviar Mensaje"}
           </button>
         </form>
-      )}
-    </div>
+      </div>
     </div>
   );
 };
