@@ -9,8 +9,6 @@ export const projectsData = [
     results:
     "Reporte para promover e intensificar la concientización y educación sobre la salud mental.",
     duration: "2 meses",
-     embedUrl:
-      "https://app.powerbi.com/reportEmbed?reportId=2eaaff90-9db0-4d85-a128-36cf5ab3bc13&autoAuth=true&ctid=e97f28b0-9f25-4c26-a8e9-8bb80eeefd3f",
     dataset: "https://datos.gob.ar/dataset/seguridad-suicidios-sistema-alerta-temprana-estadisticas-criminales-republica-argentina",
     technologies: ["Excel", "Power BI", "MySQL", "DAX", "Power Query"],
     conclusions:

@@ -48,41 +48,30 @@ export default function ProjectDetailPage() {
         </p>
       </header>
 
-      <div className="overflow-hidden mb-14">
-        {project.embedUrl ? (
-          <div className="w-full h-[800px]">
-            <iframe
-              src={project.embedUrl}
-              title={project.title}
-              allowFullScreen
-              className="w-full h-full rounded-xl border-0"
-            />
-          </div>
-        ) : (
-          <Carousel
-            responsive={responsive}
-            arrows
-            swipeable
-            draggable
-            infinite
-            autoPlay={false}
-          >
-            {project.images.map((img, index) => (
-              <div
-                key={index}
-                className="w-full h-[800px] flex items-center justify-center"
-              >
-                <Image
-                  src={img}
-                  alt={`Imagen ${index + 1}`}
-                  width={1200}
-                  height={800}
-                  className="max-h-full object-contain rounded-xl"
-                />
-              </div>
-            ))}
-          </Carousel>
-        )}
+      <div className=" overflow-hidden  mb-14">
+        <Carousel
+          responsive={responsive}
+          arrows
+          swipeable
+          draggable
+          infinite
+          autoPlay={false}
+        >
+          {project.images.map((img, index) => (
+            <div
+              key={index}
+              className="w-full h-[800px] flex items-center justify-center"
+            >
+              <Image
+                src={img}
+                alt={`Imagen ${index + 1}`}
+                width={1200}
+                height={800}
+                className="max-h-full object-contain rounded-xl"
+              />
+            </div>
+          ))}
+        </Carousel>
       </div>
 
       <section className="space-y-14 text-gray-800 text-[1.05rem] leading-relaxed">
